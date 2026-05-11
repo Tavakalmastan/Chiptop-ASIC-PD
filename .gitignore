@@ -1,0 +1,32 @@
+# Innovus temporary files
+innovus_temp_*
+*.log
+*.log*
+*.cmd*
+*.dat
+*.enc
+*.enc.dat
+*.tmp
+
+# Reports backup
+*.old
+
+# Generated databases
+*.gds
+*.lef
+*.def
+*.spef
+
+# Binary/cache
+rc_model.bin
+
+# Tool generated folders
+INCA_libs/
+work/
+
+# Large outputs
+outputs/*.gds
+outputs/*.spef
+
+# OS files
+.DS_Store
