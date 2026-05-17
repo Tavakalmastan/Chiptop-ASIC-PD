@@ -106,7 +106,6 @@ This project underwent multiple implementation iterations to improve congestion,
 
 ## 📊 ChipTop ASIC Design Results Summary
 
-
 ### Final Design
 
 | Parameter | Value |
@@ -126,7 +125,7 @@ This project underwent multiple implementation iterations to improve congestion,
 
 ---
 
-### Iteration 1
+### Iteration 1 — Initial Exploration
 
 | Parameter | Value |
 |------------|--------|
@@ -141,9 +140,14 @@ This project underwent multiple implementation iterations to improve congestion,
 | PG Shorts | 0 |
 | Connectivity Violations | 0 |
 
+**Observation**
+- Initial placement strategy explored
+- Higher DRC count observed
+- Used as baseline QoR reference
+
 ---
 
-### Iteration 2
+### Iteration 2 — Optimization Phase
 
 | Parameter | Value |
 |------------|--------|
@@ -158,6 +162,20 @@ This project underwent multiple implementation iterations to improve congestion,
 | PG Shorts | 0 |
 | Connectivity Violations | 0 |
 
+**Observation**
+- Routing quality improved significantly
+- DRC reduced from **11 → 1**
+- Better QoR achieved
+
+---
+
+### 📌 Final QoR Outcome
+
+✅ Positive timing closure  
+✅ DRC reduced to **0** in final implementation  
+✅ Connectivity clean  
+✅ Successful routed layout generation  
+✅ Multiple implementation iterations analyzed
 ---
 
 # 📁 Project Structure
