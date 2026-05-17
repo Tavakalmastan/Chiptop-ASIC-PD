@@ -101,18 +101,13 @@ This project underwent multiple implementation iterations to improve congestion,
 - Placement optimization performed
 - Improved routing and timing behavior
 
----
-
-### Final Design Achievements
-
-✅ Positive timing slack  
-✅ Connectivity clean  
-✅ Routing completed  
-✅ QoR reports generated
 
 ---
 
 ## 📊 ChipTop ASIC Design Results Summary
+
+
+### Final Design
 
 | Parameter | Value |
 |------------|--------|
@@ -126,6 +121,40 @@ This project underwent multiple implementation iterations to improve congestion,
 | Area Utilization (Initial) | 54.831852% |
 | Area Utilization (After Routing) | 59.539831% |
 | DRC Violations | 0 |
+| PG Shorts | 0 |
+| Connectivity Violations | 0 |
+
+---
+
+### Iteration 1
+
+| Parameter | Value |
+|------------|--------|
+| Setup Violations | 0 (Positive slack) |
+| Hold Violations | No violations |
+| Standard Cell Count | 48172 |
+| Total Area | 859876.334 |
+| Combinational Cells Count | 45316 |
+| Sequential Cells Count | 2856 |
+| Area Utilization | 60.037744% |
+| DRC Violations | 11 |
+| PG Shorts | 0 |
+| Connectivity Violations | 0 |
+
+---
+
+### Iteration 2
+
+| Parameter | Value |
+|------------|--------|
+| Setup Violations | 0 (Positive slack) |
+| Hold Violations | No violations |
+| Standard Cell Count | 45099 |
+| Total Area | 852872.174 |
+| Combinational Cells Count | 42243 |
+| Sequential Cells Count | 2856 |
+| Area Utilization | 70.024671% |
+| DRC Violations | 1 |
 | PG Shorts | 0 |
 | Connectivity Violations | 0 |
 
