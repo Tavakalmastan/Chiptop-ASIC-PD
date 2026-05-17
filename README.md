@@ -43,7 +43,6 @@ This project demonstrates a complete ASIC Physical Design flow for a ChipTop des
 
 ---
 
-
 ## 🖼️ Physical Design Flow Snapshots
 
 ### 🔹 Floorplan
@@ -66,93 +65,50 @@ This project demonstrates a complete ASIC Physical Design flow for a ChipTop des
 
 ---
 
-# 🔄 Design Evolution & Optimization Journey
+## 🔄 Design Evolution & Optimization Journey
 
 This project underwent multiple implementation iterations to improve congestion, placement quality, timing closure, and routing quality.
 
-## Iteration 1 — Initial Design
+### Iteration 1 — Initial Design
 
-### Floorplan
+#### Floorplan
 ![Floorplan](screenshots/iteration_1/floorplan_1.png)
 
-### Placement
+#### Placement
 ![Placement](screenshots/iteration_1/placement_1.png)
 
-### Routing
+#### Routing
 ![Routing](screenshots/iteration_1/routing_1.png)
 
-Observation:
+**Observation**
 - Initial implementation with baseline QoR
 - Congestion hotspots observed
 
 ---
 
-## Iteration 2 — Optimization Phase
+### Iteration 2 — Optimization Phase
 
-### Floorplan
+#### Floorplan
 ![Floorplan](screenshots/iteration_2/floorplan_2.png)
 
-### Placement
+#### Placement
 ![Placement](screenshots/iteration_2/placement_2.png)
 
-### Routing
+#### Routing
 ![Routing](screenshots/iteration_2/routing_2.png)
 
-Observation:
+**Observation**
 - Placement optimization performed
 - Improved routing and timing behavior
 
 ---
 
-## Final Design
-
-Achieved:
+### Final Design Achievements
 
 ✅ Positive timing slack  
 ✅ Connectivity clean  
 ✅ Routing completed  
-✅ QoR reports generated  
----
-
-## 🧠 Key Observations
-
-- Successful completion of Physical Design flow
-- Balanced placement and routing structure
-- Efficient TCL-based automation flow
-- Generated multiple timing and QoR reports
-- Achieved clean routed implementation
-
----
-
-# 🖼️ Physical Design Flow Snapshots
-
-## 🔹 Floorplan
-![Floorplan](screenshots/floorplan.png)
-
----
-
-## 🔹 Macro Placement
-![Macro Placement](screenshots/macro_placement.png)
-
----
-
-## 🔹 Placement
-![Placement](screenshots/placement.png)
-
----
-
-## 🔹 Clock Tree Synthesis (CTS)
-![CTS](screenshots/cts.png)
-
----
-
-## 🔹 Routing
-![Routing](screenshots/routing.png)
-
----
-
-## 🔹 Final Layout
-![Final Layout](screenshots/final_layout.png)
+✅ QoR reports generated
 
 ---
 
