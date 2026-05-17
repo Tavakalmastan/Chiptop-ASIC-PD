@@ -43,28 +43,75 @@ This project demonstrates a complete ASIC Physical Design flow for a ChipTop des
 
 ---
 
-## 📈 Design Analysis
 
-### 🔹 Floorplanning
-- Core and IO regions defined successfully
-- Macro alignment optimized for routing resources
+## 🖼️ Physical Design Flow Snapshots
+
+### 🔹 Floorplan
+![Floorplan](screenshots/final/floorplan.png)
+
+### 🔹 Macro Placement
+![Macro Placement](screenshots/final/macro_placement.png)
 
 ### 🔹 Placement
-- Standard cells placed with optimized utilization
-- Congestion reduced through placement optimization
+![Placement](screenshots/final/placement.png)
 
 ### 🔹 Clock Tree Synthesis (CTS)
-- Clock network balanced successfully
-- Improved clock distribution across design
+![CTS](screenshots/final/cts.png)
 
 ### 🔹 Routing
-- Global and detailed routing completed
-- Routing congestion minimized
+![Routing](screenshots/final/routing.png)
 
 ### 🔹 Final Layout
-- Final routed layout generated successfully
-- Timing reports and QoR reports exported
+![Final Layout](screenshots/final/final_layout.png)
 
+---
+
+# 🔄 Design Evolution & Optimization Journey
+
+This project underwent multiple implementation iterations to improve congestion, placement quality, timing closure, and routing quality.
+
+## Iteration 1 — Initial Design
+
+### Floorplan
+![Floorplan](screenshots/iteration_1/floorplan_1.png)
+
+### Placement
+![Placement](screenshots/iteration_1/placement_1.png)
+
+### Routing
+![Routing](screenshots/iteration_1/routing_1.png)
+
+Observation:
+- Initial implementation with baseline QoR
+- Congestion hotspots observed
+
+---
+
+## Iteration 2 — Optimization Phase
+
+### Floorplan
+![Floorplan](screenshots/iteration_2/floorplan_2.png)
+
+### Placement
+![Placement](screenshots/iteration_2/placement_2.png)
+
+### Routing
+![Routing](screenshots/iteration_2/routing_2.png)
+
+Observation:
+- Placement optimization performed
+- Improved routing and timing behavior
+
+---
+
+## Final Design
+
+Achieved:
+
+✅ Positive timing slack  
+✅ Connectivity clean  
+✅ Routing completed  
+✅ QoR reports generated  
 ---
 
 ## 🧠 Key Observations
