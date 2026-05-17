@@ -109,6 +109,25 @@ This project demonstrates a complete ASIC Physical Design flow for a ChipTop des
 
 ---
 
+## 📊 ChipTop ASIC Design Results Summary
+
+| Parameter | Value |
+|------------|--------|
+| Setup Violations | 0 (Positive slack) |
+| Hold Violations | No violations |
+| Standard Cell Count (Initial) | 20035 |
+| Standard Cell Count (After Routing) | 49706 |
+| Total Area | 1537290.0 |
+| Combinational Cells Count | 17179 |
+| Sequential Cells Count | 2856 |
+| Area Utilization (Initial) | 54.831852% |
+| Area Utilization (After Routing) | 59.539831% |
+| DRC Violations | 0 |
+| PG Shorts | 0 |
+| Connectivity Violations | 0 |
+
+---
+
 # 📁 Project Structure
 
 ```text
